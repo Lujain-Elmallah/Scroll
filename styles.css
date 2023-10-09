@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.parallax {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+    transition: transform 0.5s ease;
+}
+
+.right-off-screen {
+    transform: translateX(100%);
+}
+
+#section1 {
+    background-image: url("img1.jpg");
+}
+
+#section2 {
+    background-image: url("img2.jpg");
+}
+
+#section3 {
+    background-image: url("img3.jpg");
+}
+
+#section4 {
+    background-image: url("img4.jpg");
+}
+
+.header {
+    font-size: 3em;
+    margin-bottom: 20px;
+    transition: font-size 0.5s ease;
+}
+
+.paragraph {
+    font-size: 1.5em;
+    transition: font-size 0.5s ease;
+}
+
+.paragraph-block {
+    margin-top: 30px;
+}
