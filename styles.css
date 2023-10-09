@@ -1,53 +1,63 @@
+/* Apply basic styles to the body element */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Set font family for the entire document */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
+/* Styling for parallax sections */
 .parallax {
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: white;
-    padding: 100px 0;
-    transition: transform 0.5s ease;
+    min-height: 500px; /* Set minimum height for parallax sections */
+    background-attachment: fixed; /* Fixed background attachment for parallax effect */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover; /* Cover the entire element with background image */
+    text-align: center; /* Center align text content */
+    color: white; /* Set text color to white */
+    padding: 100px 0; /* Add padding to the top and bottom of parallax sections */
+    transition: transform 0.5s ease; /* Apply smooth transition effect on transform property */
 }
 
+/* CSS class to move an element off-screen to the right */
 .right-off-screen {
-    transform: translateX(100%);
+    transform: translateX(100%); /* Move the element 100% of its width to the right */
 }
 
+/* Styling for the first parallax section */
 #section1 {
-    background-image: url("img1.jpg");
+    background-image: url("img1.jpg"); /* Set background image for the first section */
 }
 
+/* Styling for the second parallax section */
 #section2 {
-    background-image: url("img2.jpg");
+    background-image: url("img2.jpg"); /* Set background image for the second section */
 }
 
+/* Styling for the third parallax section */
 #section3 {
-    background-image: url("img3.jpg");
+    background-image: url("img3.jpg"); /* Set background image for the third section */
 }
 
+/* Styling for the fourth parallax section */
 #section4 {
-    background-image: url("img4.jpg");
+    background-image: url("img4.jpg"); /* Set background image for the fourth section */
 }
 
+/* Styling for header elements inside parallax sections */
 .header {
-    font-size: 3em;
-    margin-bottom: 20px;
-    transition: font-size 0.5s ease;
+    font-size: 3em; /* Set font size for header elements */
+    margin-bottom: 20px; /* Add margin at the bottom of header elements */
+    transition: font-size 0.5s ease; /* Apply smooth transition effect on font-size property */
 }
 
+/* Styling for paragraph elements inside parallax sections */
 .paragraph {
-    font-size: 1.5em;
-    transition: font-size 0.5s ease;
+    font-size: 1.5em; /* Set font size for paragraph elements */
+    transition: font-size 0.5s ease; /* Apply smooth transition effect on font-size property */
 }
 
+/* Additional margin at the top of paragraph blocks */
 .paragraph-block {
-    margin-top: 30px;
+    margin-top: 30px; /* Add margin at the top of paragraph blocks */
 }
